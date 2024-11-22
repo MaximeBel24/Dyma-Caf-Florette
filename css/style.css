@@ -55,6 +55,12 @@
     color: white;
   }
 
+  .container {
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+  }
+
   /* Header */
   .header {
     background: black;
@@ -115,4 +121,17 @@
     font-size: 18px;
     letter-spacing: 0.5px;
     line-height: 1.9em;
+  }
+
+  /* features */
+
+  .features {
+    overflow: auto;
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  .feature {
+    float: left;
+    width: 50%;
   }
