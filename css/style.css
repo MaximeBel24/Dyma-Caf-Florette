@@ -30,6 +30,11 @@
     margin-bottom: 10px;
   }
 
+  .my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .separator {
     margin: 20px auto;
     height: 10px;
@@ -48,11 +53,24 @@
   .btn-primary {
     background: white;
     color: #222;
+    transition: .3s;
   }
 
   .btn-primary:hover {
     background: #222;
     color: white;
+  }
+
+  .btn-dark {
+    background: #222;
+    color: white;
+    transition: .3S;
+  }
+
+  .btn-dark:hover {
+    background: white;
+    color: #222;
+    border: 1px solid #222;
   }
 
   .container {
@@ -91,6 +109,7 @@
     color: white;
     padding: 20px;
     display: block;
+    transition: .3S;
   }
   
   .header nav ul li a:hover,
@@ -134,4 +153,31 @@
   .feature {
     float: left;
     width: 50%;
+  }
+
+  /* person */
+
+  .person {
+    height: 400px;
+    background: url(../images/cafe3.jpg) center center/cover;
+  }
+
+  /* reservation */
+  
+  .reservation {
+    padding: 100px 0px;
+    text-align: center;
+  }
+
+  /* footer */
+
+  footer {
+    background: #222;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  footer p {
+    margin-bottom: 0px;
   }
